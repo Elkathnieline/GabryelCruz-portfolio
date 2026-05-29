@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400&display=swap');
 @import "tailwindcss";
 
 html,
@@ -8,8 +11,21 @@ body,
 
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Utility: Prompt Regular for headings */
+.font-prompt-regular {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+}
+
+/* Utility: Corben Regular for buttons */
+.font-corben-regular {
+  font-family: 'Corben', serif;
+  font-weight: 400;
 }

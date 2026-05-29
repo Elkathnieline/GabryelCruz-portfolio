@@ -1,0 +1,34 @@
+import wavylinebg from '../../../images/wavylinebg.png';
+
+export default function Showcase() {
+  const sectionStyle = {
+    backgroundImage: `url(${wavylinebg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+
+  return (
+    <section className="relative overflow-hidden bg-[#cfe8f4] py-12 sm:py-16 md:py-20" style={sectionStyle}>
+      <div className="relative z-10 mx-auto flex w-full max-w-[1280px] flex-col items-center px-4 sm:px-6">
+        <div className="grid w-full grid-cols-1 justify-items-center gap-5 lg:grid-cols-3 lg:gap-8 xl:gap-6">
+          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
+          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] lg:-translate-y-6 xl:h-[400px] xl:w-[360px]" />
+          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
+        </div>
+
+        <div className="mt-8 text-center md:mt-10">
+          <h3 className="text-[clamp(2rem,4vw,3.25rem)] font-corben-regular leading-none tracking-[-0.04em] text-[#9d2f2d]">
+            Something
+          </h3>
+          <p className="mt-4 text-sm font-corben-regular text-[#9d2f2d] sm:text-base">
+            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+          </p>
+          <button className="mt-8 rounded-lg bg-[#9d2f2d] px-6 py-2.5 text-sm font-corben-regular text-white transition hover:bg-[#8f3d35]">
+            Something
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}

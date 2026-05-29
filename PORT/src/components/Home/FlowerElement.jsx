@@ -16,7 +16,7 @@ export default function FlowerElement() {
   }, []);
 
   return (
-    <div ref={flowerRef} className="w-full">
+    <div ref={flowerRef} className="mx-auto w-[85%]">
       <img src="/images/flower.png" alt="flower" className="block h-auto w-full select-none" />
     </div>
   )

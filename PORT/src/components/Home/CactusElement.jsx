@@ -17,7 +17,7 @@ export default function CactusElement() {
   }, []);
 
   return (
-    <div ref={cactusRef} className="w-full">
+    <div ref={cactusRef} className="mx-auto w-[150%]">
       <img src="/images/cactus.png" alt="cactus" className="block h-auto w-full select-none" />
     </div>
   )
