@@ -18,7 +18,7 @@ export default function Showcase() {
         </div>
 
         <div className="mt-8 text-center md:mt-10">
-          <h3 className="text-[clamp(2rem,4vw,3.25rem)] font-corben-regular leading-none tracking-[-0.04em] text-[#9d2f2d]">
+          <h3 className="text-4xl sm:text-5xl md:text-5xl font-corben-regular leading-none tracking-[-0.04em] text-[#9d2f2d]">
             Something
           </h3>
           <p className="mt-4 text-sm font-corben-regular text-[#9d2f2d] sm:text-base">

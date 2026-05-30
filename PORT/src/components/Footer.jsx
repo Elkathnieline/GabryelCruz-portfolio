@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#ff97b6] px-4 py-8 text-[#f6efe4] sm:px-8 sm:py-9 lg:px-16 lg:py-12" id="footer">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-6 sm:gap-7 md:grid-cols-3 md:items-center lg:gap-8">
-        <nav className="font-montserrat-light hidden flex-col gap-2 text-sm sm:flex sm:text-sm md:text-left md:text-[0.85rem] lg:text-[0.95rem] xl:text-[clamp(1rem,1.2vw,1.2rem)]">
+        <nav className="font-montserrat-light hidden flex-col gap-2 text-sm sm:flex sm:text-sm md:text-left md:text-[0.85rem] lg:text-[0.95rem] xl:text-base">
           {navLinks.map((link) =>
             link.to ? (
               <Link key={link.label} className="hover:opacity-80" to={link.to}>
@@ -30,7 +30,7 @@ export default function Footer() {
         </nav>
 
         <div className="text-center">
-          <h3 className="font-vampiro-one text-[clamp(1.65rem,2.5vw,2.2rem)] leading-none lg:text-[clamp(1.75rem,2.7vw,2.4rem)] xl:text-[clamp(1.9rem,3vw,2.6rem)]">Gabryel Cruz</h3>
+          <h3 className="font-vampiro-one text-2xl leading-none lg:text-2xl xl:text-3xl">Gabryel Cruz</h3>
           <div className="mt-4 flex items-center justify-center gap-2 text-[#f6efe4]">
             <a aria-label="Facebook" className="hover:opacity-80" href="https://facebook.com" rel="noreferrer" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" className="h-5 w-5 fill-current sm:h-5 sm:w-5 md:h-5 md:w-5 lg:h-6 lg:w-6 xl:h-7 xl:w-7" aria-hidden="true">

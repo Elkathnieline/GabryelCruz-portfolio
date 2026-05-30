@@ -3,17 +3,17 @@ export default function Intro() {
     <section className="bg-[#fffbf5] py-12 sm:py-16 lg:py-20">
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-6 sm:px-8 lg:flex-row lg:gap-16 lg:px-8">
         <div className="flex flex-1 flex-col justify-center">
-          <h2 className="text-[clamp(2.35rem,4.8vw,4.1rem)] font-prompt-regular leading-none text-[#9d2f2d] text-center lg:text-left">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-prompt-regular leading-none text-[#9d2f2d] text-center lg:text-left">
             I'm Gabryel!
           </h2>
 
-          <p className="mt-5 text-[clamp(2rem,4.2vw,3.35rem)] font-prompt-regular leading-[1.18] text-[#b8dcea] text-center lg:text-left">
+          <p className="mt-5 text-2xl sm:text-3xl font-prompt-regular leading-[1.18] text-[#b8dcea] text-center lg:text-left">
             lorem ipsum lorem
             <br />
             upsum lorem ipsum
           </p>
 
-          <p className="mt-8 text-[clamp(1.15rem,1.45vw,1.35rem)] font-prompt-regular leading-[1.35] text-[#9d2f2d] text-center lg:text-left">
+          <p className="mt-8 text-base sm:text-lg font-prompt-regular leading-[1.35] text-[#9d2f2d] text-center lg:text-left">
             Lorem ipsum lorem ipsum Lorem ipsum
             <br />
             lorem ipsum Lorem ipsum lorem ipsum
@@ -31,7 +31,8 @@ export default function Intro() {
             lorem ipsum Lorem ipsum lorem ipsum
           </p>
 
-          <p className="mt-8 text-[clamp(1.15rem,1.45vw,1.35rem)] font-prompt-regular leading-[1.35] text-[#9d2f2d] text-center lg:text-left">
+
+          <p className="mt-8 text-base sm:text-lg font-prompt-regular leading-[1.35] text-[#9d2f2d] text-center lg:text-left">
             Lorem ipsum lorem ipsum Lorem ipsum
             <br />
             lorem ipsum Lorem ipsum lorem ipsum

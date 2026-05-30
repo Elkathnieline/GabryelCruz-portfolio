@@ -12,7 +12,7 @@ const containerClass =
 function HeroContent({ onScroll }) {
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center gap-5 px-4 text-center sm:gap-6">
-      <h1 className="flex flex-col items-center gap-1 text-[clamp(2.25rem,6vw,3.75rem)] font-prompt-regular leading-[0.95] tracking-[-0.04em] text-[#a6463f] sm:gap-2">
+      <h1 className="flex flex-col items-center gap-1 text-4xl sm:text-5xl md:text-6xl font-prompt-regular leading-[0.95] tracking-[-0.04em] text-[#a6463f] sm:gap-2">
         <span>welcome to my</span>
         <span>portfolio</span>
         <span>website</span>
