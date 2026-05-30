@@ -13,7 +13,7 @@ function SocialLink({ href, ariaLabel, anchorClass, children }) {
 
 export default function Navbar() {
   return (
-    <nav className="grid w-full grid-cols-[1fr_auto_1fr] items-center border-b-2 border-[#c7e5f4] bg-[#faedd6] px-4 py-2 sm:px-6 lg:px-10">
+    <nav className="grid w-full grid-cols-[1fr_auto_1fr] items-center bg-[#faedd6] px-4 py-2 sm:px-6 lg:px-10">
       <div />
 
       <div className="flex items-center justify-center gap-5 sm:gap-8 md:gap-14 lg:gap-24">

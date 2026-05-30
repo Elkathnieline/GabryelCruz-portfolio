@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Corben:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap');
 @import "tailwindcss";
 
 html,
@@ -24,8 +25,24 @@ body {
   font-weight: 500;
 }
 
+/* Utility: Prompt Bold for headings */
+.font-prompt-bold {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 700;
+}
+
 /* Utility: Corben Regular for buttons */
 .font-corben-regular {
   font-family: 'Corben', serif;
   font-weight: 400;
+}
+
+.font-vampiro-one {
+  font-family: 'Vampiro One', cursive;
+  font-weight: 400;
+}
+
+.font-montserrat-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }

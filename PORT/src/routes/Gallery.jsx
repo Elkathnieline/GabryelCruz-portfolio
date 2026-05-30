@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Gallery() {
 	return (
@@ -12,6 +13,7 @@ export default function Gallery() {
 					</p>
 				</div>
 			</main>
+			<Footer />
 		</div>
 	)
 }
