@@ -1,4 +1,7 @@
 import wavylinebg from '../../../images/wavylinebg.png';
+import showcase1 from '../../../images/showcase1.JPG';
+import showcase2 from '../../../images/showcase2.JPG';
+import showcase3 from '../../../images/showcase3.JPG';
 
 export default function Showcase() {
   const sectionStyle = {
@@ -12,9 +15,9 @@ export default function Showcase() {
     <section className="relative overflow-hidden bg-[#cfe8f4] py-12 sm:py-16 md:py-20" style={sectionStyle}>
       <div className="relative z-10 mx-auto flex w-full max-w-[1280px] flex-col items-center px-4 sm:px-6">
         <div className="grid w-full grid-cols-1 justify-items-center gap-5 lg:grid-cols-3 lg:gap-8 xl:gap-6">
-          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
-          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] lg:-translate-y-6 xl:h-[400px] xl:w-[360px]" />
-          <div className="mx-auto h-[250px] w-[220px] rounded-[36px] bg-white shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
+          <img src={showcase2} alt="Showcase 1" className="mx-auto h-[250px] w-[220px] rounded-[36px] object-cover shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
+          <img src={showcase1} alt="Showcase 2" className="mx-auto h-[250px] w-[220px] rounded-[36px] object-cover shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] lg:-translate-y-6 xl:h-[400px] xl:w-[360px]" />
+          <img src={showcase3} alt="Showcase 3" className="mx-auto h-[250px] w-[220px] rounded-[36px] object-cover shadow-[0_12px_24px_rgba(0,0,0,0.06)] sm:h-[290px] sm:w-[255px] md:h-[330px] md:w-[290px] lg:h-[340px] lg:w-[304px] xl:h-[400px] xl:w-[360px]" />
         </div>
 
         <div className="mt-8 text-center md:mt-10">

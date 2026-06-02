@@ -1,4 +1,5 @@
 import wavylinebg from '../../../images/wavylinebg.png';
+import header from '../../../images/header.jpg';
 
 export default function AboutHeader() {
   const buttonClass =
@@ -36,7 +37,7 @@ export default function AboutHeader() {
           </div>
         </div>
 
-        <div className="mx-auto h-[240px] w-full max-w-[280px] rounded-[56px] bg-white sm:h-[300px] sm:max-w-[330px] md:h-[360px] md:max-w-[360px] lg:mx-0 lg:h-[500px] lg:max-w-[420px]" />
+        <img src={header} alt="About Header" className="mx-auto h-[240px] w-full max-w-[280px] rounded-[56px] object-cover sm:h-[300px] sm:max-w-[330px] md:h-[360px] md:max-w-[360px] lg:mx-0 lg:h-[500px] lg:max-w-[420px]" />
       </div>
     </section>
   );

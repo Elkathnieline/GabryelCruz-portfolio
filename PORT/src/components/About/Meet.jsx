@@ -1,3 +1,6 @@
+import frame from '../../../images/frame.png';
+import meet from '../../../images/meet.JPG';
+
 export default function Meet() {
   return (
     <section className="bg-[#fffbf5] px-4 py-14 sm:px-6 sm:py-16 md:px-8 lg:px-10 lg:py-20">
@@ -15,7 +18,20 @@ export default function Meet() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 items-center gap-8 md:gap-10 lg:grid-cols-[minmax(300px,360px)_minmax(0,1fr)] lg:items-start lg:gap-12 xl:gap-16 lg:pl-12 xl:pl-28">
-          <div className="mx-auto h-[250px] w-full max-w-[300px] rounded-[56px] bg-[#ff97b6] sm:h-[320px] sm:max-w-[360px] md:h-[380px] md:max-w-[380px] lg:mx-auto lg:h-[420px] lg:max-w-[360px]" />
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-[330px] rotate-[-4deg] overflow-visible sm:max-w-[390px] md:max-w-[440px] lg:mx-auto lg:max-w-[490px]">
+            <div className="absolute inset-[13%] z-0 overflow-hidden sm:inset-[12.5%] md:inset-[12%] lg:inset-[11.5%]">
+              <img
+                src={meet}
+                alt="Meet Gabryel"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <img
+              src={frame}
+              alt="Decorative frame"
+              className="pointer-events-none absolute left-1/2 top-1/2 z-10 h-[175%] w-[175%] -translate-x-1/2 -translate-y-1/2 object-contain drop-shadow-[0_18px_30px_rgba(0,0,0,0.12)]"
+            />
+          </div>
 
           <div className="text-center lg:text-left lg:pl-4 xl:pl-12">
             <h3 className="font-corben-regular text-2xl sm:text-3xl leading-[1.08] text-[#9d2f2d]">
