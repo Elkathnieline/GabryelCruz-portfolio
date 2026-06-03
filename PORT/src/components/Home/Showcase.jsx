@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import wavylinebg from '../../../images/wavylinebg.png';
 import showcase1 from '../../../images/showcase1.JPG';
 import showcase2 from '../../../images/showcase2.JPG';
@@ -21,15 +22,19 @@ export default function Showcase() {
         </div>
 
         <div className="mt-8 text-center md:mt-10">
-          <h3 className="text-4xl sm:text-5xl md:text-5xl font-corben-regular leading-none tracking-[-0.04em] text-[#9d2f2d]">
-            Something
+          <h3 className="text-4xl sm:text-5xl md:text-5xl font-vampiro-one leading-none tracking-[-0.04em] text-[#9d2f2d]">
+            Interests
           </h3>
           <p className="mt-4 text-sm font-corben-regular text-[#9d2f2d] sm:text-base">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+            I’m passionate about networking, web development, UI/UX design, and game development.
+            <br />
+            I enjoy building systems that connect people and creating clean, functional websites.
+            <br />
+            I also love game development because it blends creativity with problem-solving.
           </p>
-          <button className="mt-8 rounded-lg bg-[#9d2f2d] px-6 py-2.5 text-sm font-corben-regular text-white transition hover:bg-[#8f3d35]">
-            Something
-          </button>
+          <Link className="mt-8 inline-block rounded-lg bg-[#9d2f2d] px-6 py-2.5 text-sm font-corben-regular text-white transition hover:bg-[#8f3d35]" to="/gallery">
+            take a look at my works
+          </Link>
         </div>
       </div>
     </section>

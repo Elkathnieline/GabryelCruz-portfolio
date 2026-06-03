@@ -32,7 +32,7 @@ export default function Navbar() {
 
       <div className="flex items-center justify-end gap-0 text-[#9d2f2d] sm:gap-0">
         <SocialLink
-          href="https://instagram.com"
+          href="https://www.instagram.com/elkathnieline?igsh=MTd6MHZxZG90OHV5Mg%3D%3D&utm_source=qr"
           ariaLabel="Instagram"
           anchorClass="inline-flex h-8 w-8 items-center justify-center transition-colors duration-200 hover:text-[#fdade3] sm:h-9 sm:w-9 md:h-8 md:w-8 lg:h-8 lg:w-8"
         >
@@ -42,7 +42,7 @@ export default function Navbar() {
         </SocialLink>
 
         <SocialLink
-          href="https://facebook.com"
+          href="https://www.facebook.com/gabryel.cruz.9674"
           ariaLabel="Facebook"
           anchorClass="inline-flex h-6 w-6 items-center justify-center transition-colors duration-200 hover:text-[#fdade3] sm:h-7 sm:w-7 -ml-2"
         >
