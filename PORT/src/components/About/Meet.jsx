@@ -1,5 +1,5 @@
-import frame from '../../../images/frame.png';
-import meet from '../../../images/meet.JPG';
+import frame from '../../../assets/images/frame.png';
+import meet from '../../../assets/images/meet.JPG';
 
 export default function Meet() {
   return (

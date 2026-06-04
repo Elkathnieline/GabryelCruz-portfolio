@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import catIcon from '../../../assets/images/cat icon.png';
 
 export default function CatElement() {
   const catRef = useRef(null);
@@ -18,7 +19,7 @@ export default function CatElement() {
 
   return (
     <div ref={catRef} className="w-full">
-      <img src="/images/cat icon.png" alt="cat" className="block h-auto w-full select-none" />
+      <img src={catIcon} alt="cat" className="block h-auto w-full select-none" />
     </div>
   )
 }

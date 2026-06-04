@@ -1,5 +1,5 @@
-import hi1 from '../../../images/hi1.JPEG';
-import hi2 from '../../../images/hi2.JPEG';
+import hi1 from '../../../assets/images/hi1.JPEG';
+import hi2 from '../../../assets/images/hi2.JPEG';
 
 export default function Intro() {
   return (

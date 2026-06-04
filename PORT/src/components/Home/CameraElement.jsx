@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
+import camera from '../../../assets/images/camera.png';
 
 export default function CameraElement() {
   const cameraRef = useRef(null);
@@ -18,7 +19,7 @@ export default function CameraElement() {
 
   return (
     <div ref={cameraRef} className="w-full">
-      <img src="/images/camera.png" alt="camera" className="block h-auto w-full select-none" />
+      <img src={camera} alt="camera" className="block h-auto w-full select-none" />
     </div>
   )
 }

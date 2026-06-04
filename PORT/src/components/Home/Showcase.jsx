@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
-import wavylinebg from '../../../images/wavylinebg.png';
-import showcase1 from '../../../images/showcase1.JPG';
-import showcase2 from '../../../images/showcase2.JPG';
-import showcase3 from '../../../images/showcase3.JPG';
+import wavylinebg from '../../../assets/images/wavylinebg.png';
+import showcase1 from '../../../assets/images/showcase1.JPG';
+import showcase2 from '../../../assets/images/showcase2.JPG';
+import showcase3 from '../../../assets/images/showcase3.JPG';
 
 export default function Showcase() {
   const sectionStyle = {
