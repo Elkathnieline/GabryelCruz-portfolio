@@ -133,6 +133,7 @@ function Tile({ item, index, onOpen, registerCard }) {
         <img
           src={item.cover}
           alt={item.title}
+          loading="lazy"
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
 
@@ -158,7 +159,7 @@ function renderMedia(media) {
     );
   }
 
-  return <img src={media.src} alt={media.label} className="max-h-[78vh] w-auto max-w-full object-contain" />;
+  return <img src={media.src} alt={media.label} loading="lazy" className="max-h-[78vh] w-auto max-w-full object-contain" />;
 }
 
 function renderThumbMedia(media) {
@@ -166,7 +167,7 @@ function renderThumbMedia(media) {
     return <video src={media.src} className="h-full w-full object-cover" muted playsInline preload="metadata" />;
   }
 
-  return <img src={media.src} alt={media.label} className="h-full w-full object-cover" />;
+  return <img src={media.src} alt={media.label} loading="lazy" className="h-full w-full object-cover" />;
 }
 
 function ExpandedGallery({ items, onBack, onOpenMedia, registerExpandedCard, githubProjects, projectsStatus }) {

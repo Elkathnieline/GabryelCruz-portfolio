@@ -41,8 +41,8 @@ export default function Intro() {
 
         <div className="mx-auto flex w-full max-w-[300px] origin-center rotate-[-3deg] flex-col items-center bg-[#fdade3] p-4 shadow-lg sm:max-w-[360px] md:max-w-[390px] lg:max-w-[360px]">
           <div className="flex w-full flex-col gap-2">
-            <img src={hi1} alt="Intro 1" className="h-auto w-full rounded-lg object-cover" />
-            <img src={hi2} alt="Intro 2" className="h-auto w-full rounded-lg object-cover" />
+            <img src={hi1} alt="Intro 1" loading="lazy" className="h-auto w-full rounded-lg object-cover" />
+            <img src={hi2} alt="Intro 2" loading="lazy" className="h-auto w-full rounded-lg object-cover" />
           </div>
           <p className="mt-6 text-center font-corben-regular text-[#9d2f2d] text-lg">
             nice to meet you!

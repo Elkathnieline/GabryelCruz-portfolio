@@ -57,7 +57,7 @@ export default function Journey() {
                 <div key={item.year} className={`flex flex-col items-center gap-6 lg:gap-0 relative ${isEven ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}>
                   <div className={`w-full lg:w-1/2 flex justify-center ${isEven ? 'lg:justify-start lg:pl-12' : 'lg:justify-end lg:pr-6'}`}>
                     <div className={imageClass}>
-                      <img src={item.image} alt={`${item.year} journey`} className="h-full w-full rounded-lg object-cover" />
+                      <img src={item.image} alt={`${item.year} journey`} loading="lazy" className="h-full w-full rounded-lg object-cover" />
                     </div>
                   </div>
 
