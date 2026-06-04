@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import wavylinebg from '../../../assets/images/wavylinebg.png';
-import header from '../../../assets/images/header.jpg';
+import wavylinebg from '../../assets/images/wavylinebg.png';
+import header from '../../assets/images/header.jpg';
 
 export default function AboutHeader() {
   const buttonClass =

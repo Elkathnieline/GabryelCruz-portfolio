@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import flower from '../../../assets/images/flower.png';
 
 export default function FlowerElement() {
   const flowerRef = useRef(null);
@@ -18,7 +17,7 @@ export default function FlowerElement() {
 
   return (
     <div ref={flowerRef} className="mx-auto w-[85%]">
-      <img src={flower} alt="flower" className="block h-auto w-full select-none" />
+      <img src="/images/flower.png" alt="flower" className="block h-auto w-full select-none" />
     </div>
   )
 }

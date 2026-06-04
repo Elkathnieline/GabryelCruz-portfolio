@@ -2,7 +2,7 @@ import FlowerElement from './FlowerElement';
 import CameraElement from './CameraElement';
 import CatElement from './CatElement';
 import CactusElement from './CactusElement';
-import checkbg from '../../../assets/images/checkbg.png';
+import checkbg from '../../assets/images/checkbg.png';
 
 const sectionClass = 'relative w-full overflow-hidden bg-white px-3 py-6 sm:px-6 md:py-8';
 

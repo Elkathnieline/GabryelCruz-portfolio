@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import cactus from '../../../assets/images/cactus.png';
 
 export default function CactusElement() {
   const cactusRef = useRef(null);
@@ -19,7 +18,7 @@ export default function CactusElement() {
 
   return (
     <div ref={cactusRef} className="mx-auto w-[150%]">
-      <img src={cactus} alt="cactus" className="block h-auto w-full select-none" />
+      <img src="/images/cactus.png" alt="cactus" className="block h-auto w-full select-none" />
     </div>
   )
 }

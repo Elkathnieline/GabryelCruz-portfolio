@@ -1,7 +1,7 @@
-import image2023 from '../../../assets/images/2023.JPG';
-import image2024 from '../../../assets/images/2024.JPG';
-import image2025 from '../../../assets/images/2025.jpg';
-import image2026 from '../../../assets/images/2026.JPG';
+import image2023 from '../../assets/images/2023.JPG';
+import image2024 from '../../assets/images/2024.JPG';
+import image2025 from '../../assets/images/2025.jpg';
+import image2026 from '../../assets/images/2026.JPG';
 
 export default function Journey() {
   const timelineItems = [

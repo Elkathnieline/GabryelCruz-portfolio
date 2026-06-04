@@ -1,4 +1,4 @@
-import checkbg from '../../../assets/images/checkbg.png';
+import checkbg from '../../assets/images/checkbg.png';
 
 export default function GalleryHeader() {
   const stripStyle = {
