@@ -2,9 +2,16 @@ import FlowerElement from './FlowerElement';
 import CameraElement from './CameraElement';
 import CatElement from './CatElement';
 import CactusElement from './CactusElement';
+import checkbg from '../../../images/checkbg.png';
 
-const sectionClass =
-  "relative w-full overflow-hidden bg-white bg-[linear-gradient(45deg,_#c8e4f7_25%,_transparent_25%,_transparent_75%,_#c8e4f7_75%,_#c8e4f7),linear-gradient(45deg,_#c8e4f7_25%,_transparent_25%,_transparent_75%,_#c8e4f7_75%,_#c8e4f7)] bg-[position:0_0,80px_80px] bg-[size:160px_160px] px-3 py-6 sm:bg-[position:0_0,70px_70px] sm:bg-[size:140px_140px] sm:px-6 md:bg-[position:0_0,80px_80px] md:bg-[size:160px_160px] md:py-8";
+const sectionClass = 'relative w-full overflow-hidden bg-white px-3 py-6 sm:px-6 md:py-8';
+
+const sectionStyle = {
+  backgroundImage: `url(${checkbg})`,
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
+};
 
 const containerClass =
   'relative mx-auto flex w-full max-w-[1280px] flex-1 items-center justify-center';
@@ -33,7 +40,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className={sectionClass}>
+    <section className={sectionClass} style={sectionStyle}>
       <div className={containerClass} style={{ minHeight: 'calc(100svh - 4rem)' }}>
         <div className="absolute left-[5%] top-[18%] w-[92px] drop-shadow-[0_8px_10px_rgba(0,0,0,0.08)] sm:left-[10%] sm:w-[118px] md:left-[8%] md:top-[16%] md:w-[140px] lg:left-[18%] lg:w-[170px]">
           <CatElement />

@@ -1,4 +1,13 @@
+import checkbg from '../../../images/checkbg.png';
+
 export default function GalleryHeader() {
+  const stripStyle = {
+    backgroundImage: `url(${checkbg})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  };
+
   return (
     <header className="w-full bg-[#ffd5ec]">
       <div className="mx-auto max-w-7xl py-12 text-center px-4 sm:py-16">
@@ -8,14 +17,7 @@ export default function GalleryHeader() {
       </div>
 
       <div aria-hidden className="w-full">
-        <div className="flex w-full">
-          {Array.from({ length: 12 }).map((_, i) => (
-            <div
-              key={i}
-              className={`flex-1 h-12 sm:h-16 md:h-20 ${i % 2 === 0 ? 'bg-white' : 'bg-[#cfe8f4]'}`}
-            />
-          ))}
-        </div>
+        <div className="h-12 w-full sm:h-16 md:h-20" style={stripStyle} />
       </div>
     </header>
   );

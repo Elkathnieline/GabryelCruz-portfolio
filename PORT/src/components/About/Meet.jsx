@@ -11,9 +11,7 @@ export default function Meet() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-5xl font-montserrat-light text-base sm:text-lg leading-[1.35] text-[#9d2f2d] sm:mt-8">
-            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
-            <br className="hidden sm:block" />
-            ipsum lorem ipsum lorem ipsum lorem ipsum
+            LIFE OUTSIDE THE SCREEN
           </p>
         </div>
 
@@ -34,27 +32,27 @@ export default function Meet() {
           </div>
 
           <div className="text-center lg:text-left lg:pl-4 xl:pl-12">
-            <h3 className="font-corben-regular text-2xl sm:text-3xl leading-[1.08] text-[#9d2f2d]">
-              Lorem ipsum lorem ipsum
-              <br />
-              lorem ipsum lorem
+            <h3 className="font-corben-regular text-lg sm:text-xl leading-[1.08] text-[#9d2f2d]">
+              More than just an IT student, I’m someone shaped by life outside the screen as much as within it.
             </h3>
 
-            <p className="mx-auto mt-8 max-w-[34rem] font-montserrat-light text-sm sm:text-base leading-[1.35] text-[#9d2f2d] lg:mx-0 lg:max-w-[26rem]">
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum Lorem ipsum lorem ipsum
-              <br />
-              lorem ipsum lorem ipsum Lorem ipsum
-              <br />
-              lorem ipsum lorem ipsum lorem ipsum
-              <br />
-              Lorem ipsum lorem ipsum lorem ipsum
-              <br />
-              lorem ipsum
-            </p>
+            <div className="mx-auto mt-8 max-w-[38rem] space-y-4 font-montserrat-light text-sm leading-[1.45] text-[#9d2f2d] lg:mx-0 lg:max-w-[36rem] sm:text-base">
+              <p>
+                Technology is a big part of my life, but only one part of my story. My faith, culture, community involvement, and leadership experiences continue to shape who I am both personally and professionally.
+              </p>
 
-            <p className="mt-10 font-corben-regular text-base sm:text-lg leading-[1.25] text-[#9d2f2d]">
-              Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-            </p>
+              <p>
+                Being active within the Filipino community in Invercargill has allowed me to celebrate my heritage while building meaningful connections with others. I also work as an Audiology Clinic Manager at Specsavers, where I continue to grow through leadership, communication, and responsibility.
+              </p>
+
+              <p>
+                Outside of work and study, I enjoy dancing, singing, and playing sports, which help me stay creative, active, and balanced.
+              </p>
+
+              <p>
+                As a Christian, I strive to approach every opportunity with integrity, humility, and a desire to serve others. These values influence how I work, lead, and collaborate with the people around me.
+              </p>
+            </div>
           </div>
         </div>
       </div>

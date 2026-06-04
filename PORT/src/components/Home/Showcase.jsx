@@ -33,7 +33,7 @@ export default function Showcase() {
             I also love game development because it blends creativity with problem-solving.
           </p>
           <Link className="mt-8 inline-block rounded-lg bg-[#9d2f2d] px-6 py-2.5 text-sm font-corben-regular text-white transition hover:bg-[#8f3d35]" to="/gallery">
-            take a look at my works
+            View my projects
           </Link>
         </div>
       </div>
